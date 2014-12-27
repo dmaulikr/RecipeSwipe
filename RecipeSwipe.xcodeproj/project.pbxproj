@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27D22584B1D9D160E98D2539 /* libPods-RecipeSwipe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA767709245002F8D0323E8F /* libPods-RecipeSwipe.a */; };
+		FDAC65101A4E357500E977B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC650F1A4E357500E977B3 /* AppDelegate.swift */; };
+		FDAC65121A4E357500E977B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC65111A4E357500E977B3 /* ViewController.swift */; };
+		FDAC65151A4E357500E977B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAC65131A4E357500E977B3 /* Main.storyboard */; };
+		FDAC65171A4E357500E977B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAC65161A4E357500E977B3 /* Images.xcassets */; };
+		FDAC651A1A4E357500E977B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDAC65181A4E357500E977B3 /* LaunchScreen.xib */; };
+		FDAC65261A4E357500E977B3 /* RecipeSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC65251A4E357500E977B3 /* RecipeSwipeTests.swift */; };
+		FDAC65331A4E3B3900E977B3 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC65321A4E3B3900E977B3 /* Recipe.swift */; };
+		FDAC65391A4E3C7B00E977B3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC65381A4E3C7A00E977B3 /* API.swift */; };
+		FDAC653B1A4E3CFD00E977B3 /* RecipePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC653A1A4E3CFD00E977B3 /* RecipePickerViewController.swift */; };
+		FDAC653D1A4E3E2C00E977B3 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC653C1A4E3E2C00E977B3 /* RecipeViewController.swift */; };
+		FDAC653F1A4E3E8A00E977B3 /* RecipePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC653E1A4E3E8A00E977B3 /* RecipePickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDAC65201A4E357500E977B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDAC65021A4E357500E977B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDAC65091A4E357500E977B3;
+			remoteInfo = RecipeSwipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F00C10F6D43AC2BE6807F4 /* Pods-RecipeSwipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeSwipe.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecipeSwipe/Pods-RecipeSwipe.release.xcconfig"; sourceTree = "<group>"; };
+		6BB3457F26B0906CAD9520D3 /* Pods-RecipeSwipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeSwipe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecipeSwipe/Pods-RecipeSwipe.debug.xcconfig"; sourceTree = "<group>"; };
+		AA767709245002F8D0323E8F /* libPods-RecipeSwipe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecipeSwipe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAC650A1A4E357500E977B3 /* RecipeSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAC650E1A4E357500E977B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAC650F1A4E357500E977B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDAC65111A4E357500E977B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDAC65141A4E357500E977B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDAC65161A4E357500E977B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDAC65191A4E357500E977B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDAC651F1A4E357500E977B3 /* RecipeSwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeSwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAC65241A4E357500E977B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAC65251A4E357500E977B3 /* RecipeSwipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSwipeTests.swift; sourceTree = "<group>"; };
+		FDAC652F1A4E35B100E977B3 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		FDAC65321A4E3B3900E977B3 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		FDAC65381A4E3C7A00E977B3 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FDAC653A1A4E3CFD00E977B3 /* RecipePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipePickerViewController.swift; sourceTree = "<group>"; };
+		FDAC653C1A4E3E2C00E977B3 /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		FDAC653E1A4E3E8A00E977B3 /* RecipePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipePickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDAC65071A4E357500E977B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D22584B1D9D160E98D2539 /* libPods-RecipeSwipe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAC651C1A4E357500E977B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114C43C163D17B17134F885F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA767709245002F8D0323E8F /* libPods-RecipeSwipe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16AE6ED7A4330543CE979C15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BB3457F26B0906CAD9520D3 /* Pods-RecipeSwipe.debug.xcconfig */,
+				02F00C10F6D43AC2BE6807F4 /* Pods-RecipeSwipe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDAC65011A4E357500E977B3 = {
+			isa = PBXGroup;
+			children = (
+				FDAC650C1A4E357500E977B3 /* RecipeSwipe */,
+				FDAC65221A4E357500E977B3 /* RecipeSwipeTests */,
+				FDAC650B1A4E357500E977B3 /* Products */,
+				16AE6ED7A4330543CE979C15 /* Pods */,
+				114C43C163D17B17134F885F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDAC650B1A4E357500E977B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC650A1A4E357500E977B3 /* RecipeSwipe.app */,
+				FDAC651F1A4E357500E977B3 /* RecipeSwipeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDAC650C1A4E357500E977B3 /* RecipeSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC650F1A4E357500E977B3 /* AppDelegate.swift */,
+				FDAC65341A4E3BF200E977B3 /* Views */,
+				FDAC652F1A4E35B100E977B3 /* BridgeHeader.h */,
+				FDAC65361A4E3C1500E977B3 /* Controllers */,
+				FDAC65371A4E3C2000E977B3 /* Models */,
+				FDAC65161A4E357500E977B3 /* Images.xcassets */,
+				FDAC65181A4E357500E977B3 /* LaunchScreen.xib */,
+				FDAC650D1A4E357500E977B3 /* Supporting Files */,
+			);
+			path = RecipeSwipe;
+			sourceTree = "<group>";
+		};
+		FDAC650D1A4E357500E977B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC650E1A4E357500E977B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDAC65221A4E357500E977B3 /* RecipeSwipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC65251A4E357500E977B3 /* RecipeSwipeTests.swift */,
+				FDAC65231A4E357500E977B3 /* Supporting Files */,
+			);
+			path = RecipeSwipeTests;
+			sourceTree = "<group>";
+		};
+		FDAC65231A4E357500E977B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC65241A4E357500E977B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDAC65341A4E3BF200E977B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC653E1A4E3E8A00E977B3 /* RecipePickerView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FDAC65361A4E3C1500E977B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC65111A4E357500E977B3 /* ViewController.swift */,
+				FDAC653A1A4E3CFD00E977B3 /* RecipePickerViewController.swift */,
+				FDAC653C1A4E3E2C00E977B3 /* RecipeViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FDAC65371A4E3C2000E977B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC65321A4E3B3900E977B3 /* Recipe.swift */,
+				FDAC65381A4E3C7A00E977B3 /* API.swift */,
+				FDAC65131A4E357500E977B3 /* Main.storyboard */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDAC65091A4E357500E977B3 /* RecipeSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAC65291A4E357500E977B3 /* Build configuration list for PBXNativeTarget "RecipeSwipe" */;
+			buildPhases = (
+				EBC483F2887343C891A22815 /* Check Pods Manifest.lock */,
+				FDAC65061A4E357500E977B3 /* Sources */,
+				FDAC65071A4E357500E977B3 /* Frameworks */,
+				FDAC65081A4E357500E977B3 /* Resources */,
+				E1E10F2D6C5AC480F2371BDC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecipeSwipe;
+			productName = RecipeSwipe;
+			productReference = FDAC650A1A4E357500E977B3 /* RecipeSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDAC651E1A4E357500E977B3 /* RecipeSwipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAC652C1A4E357500E977B3 /* Build configuration list for PBXNativeTarget "RecipeSwipeTests" */;
+			buildPhases = (
+				FDAC651B1A4E357500E977B3 /* Sources */,
+				FDAC651C1A4E357500E977B3 /* Frameworks */,
+				FDAC651D1A4E357500E977B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAC65211A4E357500E977B3 /* PBXTargetDependency */,
+			);
+			name = RecipeSwipeTests;
+			productName = RecipeSwipeTests;
+			productReference = FDAC651F1A4E357500E977B3 /* RecipeSwipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDAC65021A4E357500E977B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = GarethPaul;
+				TargetAttributes = {
+					FDAC65091A4E357500E977B3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FDAC651E1A4E357500E977B3 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FDAC65091A4E357500E977B3;
+					};
+				};
+			};
+			buildConfigurationList = FDAC65051A4E357500E977B3 /* Build configuration list for PBXProject "RecipeSwipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDAC65011A4E357500E977B3;
+			productRefGroup = FDAC650B1A4E357500E977B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDAC65091A4E357500E977B3 /* RecipeSwipe */,
+				FDAC651E1A4E357500E977B3 /* RecipeSwipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDAC65081A4E357500E977B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAC65151A4E357500E977B3 /* Main.storyboard in Resources */,
+				FDAC651A1A4E357500E977B3 /* LaunchScreen.xib in Resources */,
+				FDAC65171A4E357500E977B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAC651D1A4E357500E977B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1E10F2D6C5AC480F2371BDC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecipeSwipe/Pods-RecipeSwipe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC483F2887343C891A22815 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDAC65061A4E357500E977B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAC653B1A4E3CFD00E977B3 /* RecipePickerViewController.swift in Sources */,
+				FDAC653F1A4E3E8A00E977B3 /* RecipePickerView.swift in Sources */,
+				FDAC65121A4E357500E977B3 /* ViewController.swift in Sources */,
+				FDAC653D1A4E3E2C00E977B3 /* RecipeViewController.swift in Sources */,
+				FDAC65101A4E357500E977B3 /* AppDelegate.swift in Sources */,
+				FDAC65331A4E3B3900E977B3 /* Recipe.swift in Sources */,
+				FDAC65391A4E3C7B00E977B3 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAC651B1A4E357500E977B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAC65261A4E357500E977B3 /* RecipeSwipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDAC65211A4E357500E977B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDAC65091A4E357500E977B3 /* RecipeSwipe */;
+			targetProxy = FDAC65201A4E357500E977B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDAC65131A4E357500E977B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAC65141A4E357500E977B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDAC65181A4E357500E977B3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAC65191A4E357500E977B3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDAC65271A4E357500E977B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDAC65281A4E357500E977B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDAC652A1A4E357500E977B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB3457F26B0906CAD9520D3 /* Pods-RecipeSwipe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RecipeSwipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/gjones/workspace/github/RecipeSwipe/RecipeSwipe/BridgeHeader.h;
+			};
+			name = Debug;
+		};
+		FDAC652B1A4E357500E977B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F00C10F6D43AC2BE6807F4 /* Pods-RecipeSwipe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RecipeSwipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/gjones/workspace/github/RecipeSwipe/RecipeSwipe/BridgeHeader.h;
+			};
+			name = Release;
+		};
+		FDAC652D1A4E357500E977B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RecipeSwipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecipeSwipe.app/RecipeSwipe";
+			};
+			name = Debug;
+		};
+		FDAC652E1A4E357500E977B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RecipeSwipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecipeSwipe.app/RecipeSwipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDAC65051A4E357500E977B3 /* Build configuration list for PBXProject "RecipeSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAC65271A4E357500E977B3 /* Debug */,
+				FDAC65281A4E357500E977B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAC65291A4E357500E977B3 /* Build configuration list for PBXNativeTarget "RecipeSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAC652A1A4E357500E977B3 /* Debug */,
+				FDAC652B1A4E357500E977B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAC652C1A4E357500E977B3 /* Build configuration list for PBXNativeTarget "RecipeSwipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAC652D1A4E357500E977B3 /* Debug */,
+				FDAC652E1A4E357500E977B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDAC65021A4E357500E977B3 /* Project object */;
+}

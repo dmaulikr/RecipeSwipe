@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8FP-0h-1Ch">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="GcT-Rp-Bxr">
+            <objects>
+                <navigationController id="8FP-0h-1Ch" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fb1-wO-vcu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="seT-5c-52f" kind="relationship" relationship="rootViewController" id="hqL-SQ-kbC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7dF-xH-znW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1207" y="475"/>
+        </scene>
+        <!--Recipe View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RecipeViewController" customModule="RecipeSwipe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bio-MP-AIk"/>
+                        <viewControllerLayoutGuide type="bottom" id="rRK-3P-0Kt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nfu-AL-5ME">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a9P-d7-TRO">
+                                <rect key="frame" x="171" y="76" width="258" height="384"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="258" id="fmr-1g-70a"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a9P-d7-TRO" firstAttribute="centerX" secondItem="Nfu-AL-5ME" secondAttribute="centerX" id="CEX-OH-KUt"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="a9P-d7-TRO" secondAttribute="bottom" id="GYh-uv-beH"/>
+                            <constraint firstItem="a9P-d7-TRO" firstAttribute="centerY" secondItem="Nfu-AL-5ME" secondAttribute="centerY" id="WEO-JI-czm"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="GYh-uv-beH"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="oDC-Kd-o5R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="225" y="359"/>
+        </scene>
+        <!--Recipe Picker View Controller-->
+        <scene sceneID="zcm-ME-VYB">
+            <objects>
+                <viewController id="seT-5c-52f" customClass="RecipePickerViewController" customModule="RecipeSwipe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2po-jS-gtQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fge-Av-L0W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ScL-8L-B3Y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cAx-d0-boo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yj5-AC-nIn" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-466" y="383"/>
+        </scene>
+    </scenes>
+</document>
